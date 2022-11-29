@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Energy Chat", "Energy Chat\Energy Chat.csproj", "{90F0C4E3-C0E5-486F-B13E-8E2ACB90707D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F0C4E3-C0E5-486F-B13E-8E2ACB90707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F0C4E3-C0E5-486F-B13E-8E2ACB90707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F0C4E3-C0E5-486F-B13E-8E2ACB90707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F0C4E3-C0E5-486F-B13E-8E2ACB90707D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {863A0F8F-AB52-4A3E-9FEF-24F92D258A34}
+	EndGlobalSection
+EndGlobal

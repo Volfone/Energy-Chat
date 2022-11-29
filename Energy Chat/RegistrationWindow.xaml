@@ -1,0 +1,25 @@
+﻿<Window x:Class="Energy_Chat.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Energy_Chat"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Height="369" Width="590" Margin="25" Background="Gray">
+                <Label FontSize="36" FontWeight="Bold" Width="142">Sign up</Label>
+                <Label FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Width="360">Name</Label>
+                <TextBox  Name="NameTB" Height="35" HorizontalAlignment="Center" Width="360" FontSize="16" FontWeight="Bold"></TextBox>
+                <Label FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Width="360">Login</Label>
+                <TextBox  Name="LoginTB" Height="35" HorizontalAlignment="Center" Width="360" FontSize="16" FontWeight="Bold"></TextBox>
+                <Label FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Width="360">Password</Label>
+                <PasswordBox  Name="PasswordTB" Height="35" HorizontalAlignment="Center" Width="360" FontSize="16" FontWeight="Bold"></PasswordBox>
+                <StackPanel Height="105" Margin="0 20 0 0" HorizontalAlignment="Stretch">
+                    <Button  Name="RegButton" HorizontalAlignment="Center" Height="42" Width="95" FontWeight="Bold" FontSize="18" Click="RegButton_Click">Sign Up</Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
